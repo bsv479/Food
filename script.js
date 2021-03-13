@@ -1,3 +1,10 @@
+document.querySelector('.menu')?.addEventListener('click', () => {
+  document.querySelectorAll(".droppable").forEach((item) => {
+    item.classList.toggle('dropped');
+  });
+})
+
+
 const icons = document.querySelectorAll(".section-1-icons i");
 
 let i = 1;
