@@ -382,7 +382,7 @@ html {
 
 .footer-box {
   display: flex;
-  padding: 3rem 0;
+  padding: 3rem 2rem;
   align-items: center;
   justify-content: space-between;
 }
